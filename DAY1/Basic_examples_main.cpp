@@ -29,6 +29,24 @@ int main()
     result = (number == 0) ? 0 : ((number > 0) ? 1 : -1);
     printf("result is %d", result);
 	
+    //for loop to print 1 to 10 numbers
+    for(number = 0; number <= 10; ++number)
+	printf("%d\n", number);
+   
+	// while loop example
+	while(number<=10)
+	{
+		printf("%d\n", number); // print the number
+		number++; //incrementing the number
+	}
+	
+	// do while loop example
+	do
+	{
+		printf("%d\n", 2*number); // printing num with multiplaying 2
+		number++; // incrementing number 
+	}while(number<=10);
+	
 	return 0;
 }
 
