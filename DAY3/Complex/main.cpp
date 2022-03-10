@@ -8,7 +8,12 @@
 int counter = 0;
 int main()
 {
-
+    char* mystring = new char[80]; //new operator 
+    cin.getline(mystring,80);
+    cout << "mystring is " << mystring << endl;
+    delete[]mystring; //releasing memory
+    mystring = nullptr;
+    
     Complex c1;
     c1.accept();
     c1.display();
