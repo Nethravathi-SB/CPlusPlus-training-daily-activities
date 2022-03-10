@@ -7,7 +7,7 @@ using namespace std;
 CString::CString()
 {
 	m_len = 0;
-	m_pbuff = new char[m_len + 1];
+	m_pbuff = new char;
 	*m_pbuff = '\0';
 }
 
